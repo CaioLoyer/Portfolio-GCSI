@@ -1,0 +1,12 @@
+body{
+    /*background-image: url(../f1bg.jpeg);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    width: 95%;
+    min-width: 95%; 
+}
+
+h1{
+    
+}
