@@ -1,12 +1,75 @@
 body{
-    /*background-image: url(../f1bg.jpeg);*/
+    background-image: url(../img/fundo.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: black;
-    width: 95%;
-    min-width: 95%; 
+    height: 99%;
+    width: 99%;
+    background-size: cover;
+    --var-heading: normal normal 600 1.5em/1.6em 'Outfit', sans-serif;
+    --var-small-heading: normal normal 400 1em/1em 'Outfit', sans-serif;
+    --var-para: normal normal 300 1em/1.55em 'Outfit', sans-serif;
 }
 
-h1{
-    
+#CI-img{
+    width: 40%;
+    height: 30%;
+    margin-left: 250px;
+    margin-right: 10%;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+#CI-Texto{
+            color: aliceblue;
+}
+
+#CI-fundo{
+    background-color: #ca210a;
+    width: 70%;
+    height: 60%;
+    min-width: 400px;
+    padding: 4%;
+    margin-left: 16%;
+    margin-right: 10%;
+    box-shadow: black 0px 3px 3px ;
+    text-align: center;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+
+p {
+    font: var(--var-para);
+    color: var(--var-soft-blue);
+}
+
+span {
+    color: white;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+h1 {
+    font: var(--var-heading);
+    color: var(--var-lightest);
+    padding: 1.2em 0;
+}
+
+h2 {
+    font: var(--var-small-heading);
+    color: var(--var-lightest);
 }
